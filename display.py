@@ -1,5 +1,6 @@
 def imshow(I, grayscale_filter = None, title = None, figsize = None, cmap = 'gray', display_grid = False, gridcolor = 'w', gridwidth = 2, linestyle='-'):
     """Display image
+
     :param I: image
     :param grayscale_filter: grayscale image display range as [low, high]
     :param title: title of the figure
@@ -25,11 +26,13 @@ def imshow(I, grayscale_filter = None, title = None, figsize = None, cmap = 'gra
 
 def plot_images(images, figsize=(10,5), cmap='gray', display_grid = False, gridcolor='w', gridwidth=2, linestyle='-'):
     """Plot several images (max 10)
+
     :param images: a list of images as [[<image>, <title>]]
     :param figsize: the size of final figure
     :param cmap: cmap of display
     :param display_grid: set to `True` to draw a pixel grid on top of the image
 
+    :returns: None
     """
     plt.figure(figsize=figsize)
     for i in range (len(images)):
