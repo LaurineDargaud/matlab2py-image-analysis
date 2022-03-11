@@ -1,24 +1,17 @@
-Welcome to Lumache's documentation!
+Welcome to "MATLAB2Py Image Analysis" documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**MATLAB2Py Image Analysis** is a Python library to support 
+some MATLAB functions for Image Analysis in Python.
 
-It has documentation hosted on Read the Docs.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Function implementation is based 
+on `MATLAB Image processing techniques for image analysis documentation <https://se.mathworks.com/discovery/image-analysis.html>`_.
 
 .. note::
 
-   This project is under active development.
+   This project is still in progress.
 
-Contents
---------
+Image Filtering
+----------------
 
-.. toctree::
-
-   usage
-   api
+.. autofunction:: filtering.fspecial
