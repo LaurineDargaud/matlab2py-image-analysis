@@ -1,8 +1,7 @@
 import header
 
 def imhist(I, n:int = 20, figsize = (15,5), filename:str = 'Image'):
-    """
-    Return and display the histogram of image data
+    """Return and display the histogram of image data
 
     :param I: grayscale image
     :param n: number of bins, defaults to 20
