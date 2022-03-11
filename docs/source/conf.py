@@ -30,6 +30,10 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+# If true, the current module name will be prepended to all description
+# unit titles (such as .. function::).
+add_module_names = False
+
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
