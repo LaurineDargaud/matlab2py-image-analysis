@@ -11,6 +11,12 @@ on `MATLAB Image processing techniques for image analysis documentation <https:/
 
    This project is still in progress.
 
+Image Display
+----------------
+
+.. automodule:: display
+   :members:
+
 Image Exploration
 ----------------
 
