@@ -16,3 +16,4 @@ Image Filtering
 
 .. currentmodule:: test_temp
 .. autofunction:: square
+.. autofunction:: fspecial
