@@ -11,7 +11,11 @@ on `MATLAB Image processing techniques for image analysis documentation <https:/
 
    This project is still in progress.
 
+Image Exploration
+----------------
 
+.. automodule:: exploration
+   :members:
 
 Image Filtering
 ----------------
