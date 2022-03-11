@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+MATLAB2Py Image Analysis
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+**MATLAB2Py Image Analysis** is a Python library to perform image analysis in Python projects with the same functions name and arguments as in MATLAB. 
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://matlab2py-image-analysis.readthedocs.io/en/latest/
