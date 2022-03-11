@@ -1,7 +1,7 @@
 def fspecial(type: str, hsize: int = 3, sigma: float = 1.):
     """Return a predefined 2D filter
 
-    :param type: type of filter ('gaussian','prewitt','sobel')
+    :param type: type of filter (`gaussian`, `prewitt`, `sobel`)
     :type type: str
     :param hsize: size of filter, defaults to 3
     :type hsize: int, optional
