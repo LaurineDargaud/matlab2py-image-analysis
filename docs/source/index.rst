@@ -18,5 +18,9 @@ Image Filtering
 .. autofunction:: fspecial
 .. autofunction:: imhist
 
-..currentmodule:: test_temp
+Autre:
+.. currentmodule:: test_temp
 .. autofunction:: fspecial2
+
+Tentative d'affichage:
+.. autofunction:: test_temp.fspecial2
