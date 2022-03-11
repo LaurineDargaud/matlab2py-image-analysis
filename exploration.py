@@ -10,7 +10,7 @@ def imhist(I, n:int = 20, figsize = (15,5), filename:str = 'Image'):
     :param filename: name of given image, to insert in title
     :type filename: str
 
-    :returns: [histogram counts, bin locations]
+    :returns: histogram counts, and bin locations
     """
     plt.figure(figsize=figsize)
     counts, binLocations, _ = plt.hist(I.flatten(), bins=list(range(256)))
