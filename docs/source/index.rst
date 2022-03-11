@@ -15,5 +15,5 @@ Image Filtering
 ----------------
 
 .. currentmodule:: image_processing_toolbox
-.. autofunction:: image_processing_toolbox.fspecial
-.. autofunction:: image_processing_toolbox.imhist
+.. autofunction:: fspecial
+.. autofunction:: imhist
