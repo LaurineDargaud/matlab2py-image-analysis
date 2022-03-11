@@ -4,7 +4,7 @@ import cv2
 
 __version__ = "0.1.0"
 
-def fspecial(type: str, hsize:int = 3, sigma:float = 1.):
+def fspecial(type: str, hsize: int = 3, sigma: float = 1.):
     """
     Return a predefined 2D filter
 
@@ -48,7 +48,7 @@ def get_gaussian(size, sigma):
     kernel = np.outer(gauss, gauss)
     return kernel / np.sum(kernel)
 
-def imhist(I, n = 20, figsize = (15,5), filename = 'Image'):
+def imhist(I, n:int = 20, figsize = (15,5), filename:str = 'Image'):
     """
     Return and display the histogram of image data
 
@@ -57,6 +57,7 @@ def imhist(I, n = 20, figsize = (15,5), filename = 'Image'):
     :type n: int
     :param figsize: figsize of figure
     :param filename: name of given image, to insert in title
+    :type filename: str
 
     :return: [histogram counts, bin locations]
     """

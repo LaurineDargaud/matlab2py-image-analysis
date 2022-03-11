@@ -17,3 +17,6 @@ Image Filtering
 .. currentmodule:: image_processing_toolbox
 .. autofunction:: fspecial
 .. autofunction:: imhist
+
+..currentmodule:: test_temp
+.. autofunction:: fspecial2
