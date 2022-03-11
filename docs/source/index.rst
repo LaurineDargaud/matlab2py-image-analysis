@@ -14,13 +14,5 @@ on `MATLAB Image processing techniques for image analysis documentation <https:/
 Image Filtering
 ----------------
 
-.. currentmodule:: image_processing_toolbox
-.. autofunction:: fspecial
-.. autofunction:: imhist
-
-Autre:
 .. currentmodule:: test_temp
-.. autofunction:: fspecial2
-
-Tentative d'affichage:
-.. autofunction:: test_temp.fspecial2
+.. autofunction:: square
