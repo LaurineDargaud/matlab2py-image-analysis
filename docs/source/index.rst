@@ -1,4 +1,4 @@
-Welcome to "MATLAB2Py Image Analysis" documentation!
+Welcome to MATLAB2Py Image Analysis documentation!
 ===================================
 
 **MATLAB2Py Image Analysis** is a Python library to support 
@@ -15,5 +15,5 @@ Image Filtering
 ----------------
 
 .. currentmodule:: image_processing_toolbox
-.. autofunction:: fspecial
-.. autofunction:: imhist
+.. autofunction:: image_processing_toolbox.fspecial
+.. autofunction:: image_processing_toolbox.imhist
