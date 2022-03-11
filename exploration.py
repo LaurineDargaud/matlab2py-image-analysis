@@ -1,8 +1,4 @@
-import matplotlib.pyplot as plt
-import numpy as np
-import cv2
-
-__version__ = "0.1.0"
+import header
 
 def imhist(I, n:int = 20, figsize = (15,5), filename:str = 'Image'):
     """

@@ -11,12 +11,11 @@ on `MATLAB Image processing techniques for image analysis documentation <https:/
 
    This project is still in progress.
 
-TEST
+Image Exploration
 ----------------
 
-.. currentmodule:: test_temp
-.. autofunction:: square
-.. autofunction:: fspecial
+.. automodule:: exploration
+   :members:
 
 Image Filtering
 ----------------

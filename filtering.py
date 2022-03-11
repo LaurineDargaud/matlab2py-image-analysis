@@ -1,3 +1,5 @@
+import header
+
 def fspecial(type: str, hsize: int = 3, sigma: float = 1.):
     """Return a predefined 2D filter
 
