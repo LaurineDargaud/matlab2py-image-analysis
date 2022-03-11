@@ -14,5 +14,5 @@ on `MATLAB Image processing techniques for image analysis documentation <https:/
 Image Filtering
 ----------------
 
-.. currentmodule:: filtering
+.. currentmodule:: image_processing_toolbox
 .. autofunction:: fspecial

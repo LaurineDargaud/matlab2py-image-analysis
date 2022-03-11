@@ -1,5 +1,5 @@
 """
-MATLAB2Py - Image Analysis: Filtering
+MATLAB2Py - Image Analysis
 """
 
 __version__ = "0.1.0"
@@ -50,3 +50,19 @@ def get_gaussian(size, sigma):
     kernel = np.outer(gauss, gauss)
     return kernel / np.sum(kernel)
 
+def imhist(I, n = 20, figsize = (15,5), filename = 'Image'):
+    """
+    Return and display the histogram of image data
+    :param I: grayscale image
+    :param n: number of bins, defaults to 20
+    :type n: int
+    :param figsize: figsize of figure
+    :param filename: name of given image, to insert in title
+    :return: [histogram counts, bin locations]
+    """
+    plt.figure(figsize=figsize)
+    counts, binLocations, _ = plt.hist(I.flatten(), bins=list(range(256)))
+    plt.title(f'Histogram of {filename}')
+    plt.xticks(np.linspace(0,256,n).astype(int))
+    plt.show()
+    return [counts, binLocations]
